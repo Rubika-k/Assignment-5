@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGR(PVT)LTD.</title>
+    <link rel="stylesheets" href="./index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes slide {
+          from {
+            transform: translateX(100%);
+          }
+          to {
+            transform: translateX(-100%);
+          }
+        }
+        .animate-slide {
+          animation: slide 40s linear infinite;
+        }
+      </style>
+</head>
+<body class="font-sans bg-green-50 text-white">
+    <!--section 1-->
+    <div class="container min-h-screen">
+      <nav class="top-0 left-0 w-full  bg-green-700 p-10 fixed z-50 text-left shadow-md z-50 rounded-full">
+        <div class=" flex justify-between items-center">
+               <img src="./Assets/AGR.png" class="w-12 h-12"> 
+                <ul class="md:flex space-x-7 text-xl font-bold text-white">
+                     <li><a href="./index.html" class=" text-green-800 hover:underline">Home</a></li>
+                     <li><a href="#about" class="hover:underline hover:text-green-800">About</a></li>
+                     <li><a href="#services" class="hover:underline hover:text-green-800">Services</a></li>
+                     <li><a href="#products" class="hover:underline hover:text-green-800">products</a></li>
+                     <li><a href="#contact" class="hover:underline hover:text-green-800">contacts</a></li>
+                     <li>
+                         <div class="relative inline-block text-left">
+                              <button class="text-green-600 rounded-md hover:bg-green-300 focus:outline-black px-2" id="dropdownButton">pages▼</button>
+                              <div class="absolute hidden mt-2 w-48 bg-white rounded-md shadow-lg overflow-hidden border border-gray-200" id="dropdownMenu">
+                              <a href="feedback .html" class="block px-4 py-2 text-gray-700 font-bold hover:bg-gray-100">feedback</a>
+                              </div>
+                         </div>
+                    </li>
+                    <li><a href="product.html" class="hover:underline">details</a></li>
+                    <li>
+                        <a href="sign up.html" class="text-green bold text-3xl">Signin</a>
+                    </li>
+                
+                </ul>
+        </div>
+      </nav>
+    </div>
+    <!--section 1 finished-->
+    <!--Hero Section-->
+<!-- The video -->
+
+  <!-- Optional: some overlay text to describe the video -->
+  <div class="content">
+    <h1>REVITALIZE YOUR HOME WITH GREENERY🌱</h1>
+    <p>Discover our curated selection of ludh plants,perfect for any space.<br>Elevate your home with vibrant greenery delivered right to your door.<br> Shop now and bring the outdoors in!</p>
+    <!-- Use a button to pause/play the video with JavaScript -->
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+  </div>
+  <!--hero section finished-->
+  <!--section 3-->
+<section id="plant">
+    <div class="flex space-x-8 p-4 m-4 grid-cols-1 md:grid-cols-2 sm:grid:grid-cols-4 - bg-green-300">
+        <!--image-->
+        <div  class="w-1800 justify-left p-4">
+            <img src="./Assets/green.webp" alt="tools" class="w-1000 h-1000 rounded-lg shadow-lg">
+        </div>
+        <div class="text-green-800 justify-right">
+            <div>
+                <h1 class="font-bold text-5xl">Nature In Your House</h1>
+                <h3 class="font-bold text-3xl text-yellow-800">Welcome to Ceylon Agri Online Plants Store Sri Lanka
+                </h3>
+                <p class="font-semibold text-2xl">We are an agricultural company based in the marvellous island Sri Lanka. Our agricultural story begins as ‘Asogavanam Plant Nursery’ and we have provided our services in this agricultural sector for the past 3 months. In January, 2025 we register and became a private limited company.
+                  As a company, we offer the best plants and agricultural products along with the expertise guidance in gardening. 
+                  Not only for mass agricultural purposes, but also for the ones who love to keep a beautiful green garden, Agriculture Growth Rate (Pvt) Ltd will be the best destination to fill up your expectations. We work with the greatest vision of providing our greatest devotion towards this amazing nature to sustain a green future.</p>
+            </div>
+             <div class=" flex space-x-6 justify-center p-4">
+                    <img src="./Assets/man-removebg-preview.png" alt="man" class="w-1000 h-1000 rounded-lg shadow-lg">
+                    <button class="rounded-md text-green px-3 py-3 relative  bg-green-500 hover:bg-green-700 w-25 h-8" href="#about">About Us</button>
+
+            </div>
+            
+        </div>
+    </div>
+ </section>
+  <!--section 3 finihed-->
+  <!--section 4 -->
+  <section class="py-16" id="products">
+    <div class="container mx-auto text-green-800">
+        <h1 class="text-3xl font-bold text-center mb-8">Our Products</h1>
+        <div class="flex relative  overflow-hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
+            <div class="bg-white p-4 rounded-lg shadow">
+                <img src="./Assets/lucky bambo.jpg" alt="Plant 1" class="w-full h-full  object-cover rounded">
+                <span class="mt-2 text-center font-bold hover:underline"><a href="./product.html ">Lucky Bamboo</a></span>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <img src="./Assets/PEACE LILLY.jpg" alt="Plant 2" class="w-full h-full object-cover rounded">
+                <span class="mt-2 text-center font-bold hover:underline"><a href="./product.html">Peace lilly (Spathiphyllum spp.)</a></span>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <img src="./Assets/MONEYPLANT.jpg" alt="Plant 3" class="w-full h-full object-cover rounded">
+                <span class="mt-2 text-center font-bold hover:underline"><a href="./product.html">Pothos Plant</a></span>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <img src="./Assets/snake.jpg" alt="Plant 5" class="w-full h-full object-cover rounded">
+                <span class="mt-2 text-center font-bold hover:underline"><a href="./product.html">Snake plant</a></span>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <img src="./Assets/lucky bambo.jpg" alt="Plant 6" class="w-full h-full object-cover rounded">
+                <span class="mt-2 text-center font-bold hover:underline"><a href="./product.html">Lucky Bamboo</a></span>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow">
+                <img src="./Assets/lucky bambo.jpg" alt="Plant 7" class="w-full h-full object-cover rounded">
+                <span class="mt-2 text-center font-bold hover:underline"><a href="./product.html">Lucky Bamboo</a></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!--  Section 4 About us -->
+ <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('./Assets/background.jpeg');" id="about">
+    <div class="absolute inset-0 bg-black opacity-80">
+    
+       <div class="relative z-10 flex flex-col items-center justify-center w-full h-full text-center text-white">
+           <h1 class="text-7xl font-bold">About Us</h1>
+           <ul class="flex gap-3">
+               <li><a href="#index.html" class="text-white hover:text-green-600 py-3 px-6 text-lg transition">Home</a></li>
+               <li><a href="#page" class="text-white hover:text-green-600 py-3 px-6 text-lg transition">Page</a></li>
+               <li><a href="#contact" class="text-white hover:text-green-600 py-3 px-6 text-lg transition">Contact Us</a></li>
+            </ul>
+         </div>
+    </div>
+</section><section id="about">
+    <div class="flex space-x-8 p-4 m-4 grid-cols-1 md:grid-cols-2 sm:grid:grid-cols-4 ">
+        <!--image-->
+        <div  class="w-full md:w-1/2 flex justify-center p-4">
+            <img src="./Assets/toolssss.jpeg" alt="tools" class="w-72 h-72 rounded-lg shadow-lg">
+        </div>
+        <div class="text-green-800">
+            <div>
+                <h1 class="font-bold text-5xl">Welcome To Agriculture Growth Rate (Pvt) Ltd</h1>
+                <p class="font-semibold text-2xl">We are an agricultural company based in this marvellous island Sri Lanka. Since 20.<br> We provide the best plants and agricultural products along<br> with the expertise guidance in gardening. Not only for mass agricultural purposes, but also for the ones who love to keep a beautiful rich green garden, Ceylon Agri will be the best destination to fill up your expectations. We are following the vision of providing our greatest devotion towards the nature to sustain a green future.</p>
+            </div>
+            <div class="flex space-x-6">
+                <div>
+                    <h1 class="font-bold text-4xl">Our Vission</h1>
+                    <p class="font-semibold text-2xl">To offer our ultimate gratitude towards this amazing nature by providing the best agricultural plants and products in order sustain a greener future..</p>
+                
+                </div>
+                <div>
+                    <h1 class="font-bold text-4xl">Our Mission</h1>
+                    <p class="font-semibold text-2xl">Being the pioneer in providing the best quality plants, agricultural products and also the expertise guidance in gardening to spring up your lives. We are dedicated to build lasting relationships with our customers and provide them with exceptional products to meet their requirements.</p>
+                
+                </div>
+                <div class="w-full md:w-1/2 flex justify-center p-4">
+                    <img src="./Assets/man-removebg-preview.png" alt="man" class="w-100 h-100 rounded-lg shadow-lg">
+
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+    
+    <!--about us section finished-->
+<!--section 7 footer-->
+<footer class="flex mt-12 w-full  bg-green-800 border border-green-200 text-white px-8 py-8" style="background-image: url('./Assets/leaves-removebg-preview.png'); background-repeat: no-repeat;width:full;">
+    <div class="mx-auto flex space-x-2 mt-4 w-full ">
+        <div class="w-1/6">
+            <div class="p-4" id="services">
+                <div class="flex justify-between items-center">
+                    <img src="./Assets/AGR.png" class="w-10 h-10" alt="AGR Logo">
+                    <p class="text-lg">To offer our ultimate gratitude towards this<br> amazing nature by providing the best agricultural<br> plants and products in order sustain <br> a greener future.</p>
+                </div>
+            </div>   
+        </div>
+
+        <div class="w-1/6">
+            <h1 class="font-bold text-xl">Our Services</h1><br>
+            <ul>
+                <li class="flex gap-3"><img src="./Assets/leaves add.jpeg-removebg-preview.png" alt="leaf" class="w-8 h-8"><p class="hover:underline">Farm Establishment & Maintenance</p></li>
+                <li class="flex gap-3"><img src="./Assets/leaves add.jpeg-removebg-preview.png" alt="leaf" class="w-8 h-8"><p class="hover:underline">Nursery</p></li>
+                <li class="flex gap-3"><img src="./Assets/leaves add.jpeg-removebg-preview.png" alt="leaf" class="w-8 h-8"><p class="hover:underline">Agriculture Consulting Services</p></li>
+                <li class="flex gap-3"><img src="./Assets/leaves add.jpeg-removebg-preview.png" alt="leaf" class="w-8 h-8"><p class="hover:underline">Irrigation Appliance</p></li>
+                <li class="flex gap-3"><img src="./Assets/leaves add.jpeg-removebg-preview.png" alt="leaf" class="w-8 h-8"><p class="hover:underline">Home Gardening Kit</p></li>
+            </ul>
+        </div>
+
+        <div class="w-1/6">
+            <h1 class="font-bold text-xl">Contact Us</h1><br>
+            <ul>
+                <li class="flex gap-3"><img src="./Assets/map-removebg-preview.png" alt="map" class="w-8 h-8"><p class="hover:underline">Kanapathyappulam, Kopay Center, Kopay, Jaffna, Sri Lanka</p></li>
+                <li class="flex gap-3"><img src="./Assets/phone-removebg-preview.png" alt="phone" class="w-8 h-8"><p class="hover:underline">077-4583973 | 070-5903375</p></li>
+                <li class="flex gap-3"><img src="./Assets/glo-removebg-preview.png" alt="global" class="w-8 h-8"><p class="hover:underline">https://www.agrlanka.com/</p></li>
+                <li class="flex gap-3"><img src="./Assets/mail-removebg-preview.png" alt="mail" class="w-8 h-8"><p class="hover:underline">kkannan8997@gmail.com | Krubika2004@gmail.com</p></li>
+            </ul>
+        </div>
+
+        <div class="w-1/6">
+            <h1 class="font-bold text-xl">Categories</h1><br>
+            <ul class="text-center">
+                <li><a href="#" class="hover:underline">Fruit Plants</a></li>
+                <li><a href="#" class="hover:underline">Forest Plants</a></li>
+                <li><a href="#" class="hover:underline">Medicinal Plants</a></li>
+                <li><a href="#" class="hover:underline">Flowers & Exotic Plants</a></li>
+                <li><a href="#" class="hover:underline">Spice Plants</a></li>
+                <li><a href="#" class="hover:underline">Cactus and Succulents</a></li>
+            </ul>
+        </div>
+
+        <div class="w-1/6">
+            <h1 class="font-bold text-xl">Useful Links</h1><br>
+            <ul class="text-center">
+                <li><a href="#" class="hover:underline">About Us</a></li>
+                <li><a href="#" class="hover:underline">Contact Us</a></li>
+                <li><a href="#" class="hover:underline">Our Services</a></li>
+                <li><a href="#" class="hover:underline">Shop</a></li>
+                <li><a href="#" class="hover:underline">Blocks</a></li>
+                <li><a href="#" class="hover:underline">Youtube</a></li>
+            </ul>
+        </div>
+
+        <div class="w-1/6">
+            <p class="text-lg">Follow Us</p>
+            <div class="flex gap-3">
+                <img src="./Assets/facebook-removebg-preview.png" alt="facebook" class="h-8 w-8">
+                <img src="./Assets/ins-removebg-preview.png" alt="instagram" class="h-8 w-8">
+                <img src="./Assets/linkedin.png" alt="linkedin" class="h-8 w-8">
+                <img src="./Assets/twitter-removebg-preview.png" alt="twitter" class="h-8 w-8">
+                <img src="./Assets/youtube-removebg-preview.png" alt="youtube" class="h-8 w-8">
+                <img src="./Assets/glo-removebg-preview.png" alt="world" class="h-8 w-8">
+            </div>
+        </div>
+    </div>
+</footer>
+<!--section 7 footer finished-->
+<!-- copy right -->
+<footer class="bg-green-800 text-white py-6 opacity-100">
+  <div class="container mx-auto text-center">
+      <p>© 2025 Agriculture Growth Rate(PVT)Ltd. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+  });
+</script>
+<script>
+    // Get the video
+    var video = document.getElementById("myVideo");
+    // Get the button
+    var btn = document.getElementById("myBtn");
+    // Pause and play the video, and change the button text
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+     <script>
+        document.getElementById("signUpBtn").addEventListener("click", function() {
+            alert("Sign Up button clicked!");
+        });
+    </script>
+
+</body>
+</html>
+</body>
+</html>
