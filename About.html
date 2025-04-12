@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+ 
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <ul class="flex gap-6" style="background-image: url(./fruit.jpg); width: 300px; height: 100px;">
+        <li><a href="./index.html" class="text-white hover:text-green-600 py-3 px-6 text-lg transition">Home</a></li>
+         <li><a href="sign up.html" class="text-white hover:text-green-600 py-3 px-6 text-lg transition">Sign Up</a></li>
+         <li><a href="#about" class="text-white hover:text-green-600 py-3 px-6 text-lg transition" onclick="scrollToSection('about')">About Us</a></li>
+        <li><a href="#reviews" class="text-white hover:text-green-600 py-3 px-6 text-lg transition" onclick="scrollToSection('reviews')">Customer Reviews</a></li>
+        <li><a href="#contact" class="text-white hover:text-green-600 py-3 px-6 text-lg transition" onclick="scrollToSection('contact')">Contact Us</a></li>
+    </ul>
+    <section id="about" class="py-16">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <!-- Image Section -->
+            <div class="flex justify-center">
+                <img src="./Assets/toolssss.jpeg" alt="tools" class="w-72 h-72 rounded-lg shadow-lg">
+            </div>
+            <!-- Text Section -->
+            <div class="text-green-800 space-y-6">
+                <h1 class="font-bold text-5xl">Welcome To Agriculture Growth Rate (Pvt) Ltd</h1>
+                <p class="font-semibold text-2xl leading-relaxed">
+                    We are an agricultural company based in this marvellous island Sri Lanka. Since 20.<br>
+                    We provide the best plants and agricultural products along with the expertise guidance in gardening. Not only for mass agricultural purposes, but also for the ones who love to keep a beautiful rich green garden, Ceylon Agri will be the best destination to fill up your expectations. We are following the vision of providing our greatest devotion towards the nature to sustain a green future.
+                </p>
+            </div>
+        </div>
+    
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+            <!-- Vision Section -->
+            <div class="text-center space-y-4">
+                <h1 class="font-bold text-4xl">Our Vision</h1>
+                <p class="font-semibold text-xl leading-relaxed">
+                    To offer our ultimate gratitude towards this amazing nature by providing the best agricultural plants and products in order to sustain a greener future.
+                </p>
+            </div>
+            <!-- Mission Section -->
+            <div class="text-center space-y-4">
+                <h1 class="font-bold text-4xl">Our Mission</h1>
+                <p class="font-semibold text-xl leading-relaxed">
+                    Being the pioneer in providing the best quality plants, agricultural products and also the expertise guidance in gardening to spring up your lives. We are dedicated to building lasting relationships with our customers and providing them with exceptional products to meet their requirements.
+                </p>
+            </div>
+            <!-- Image Section -->
+            <div class="flex justify-center">
+                <img src="./Assets/man-removebg-preview.png" alt="man" class="w-72 h-72 rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section class="bg-green-300 flex flex-col items-center py-16">
+        <div class="container mx-auto text-center py-8">
+            <h1 class="font-bold text-4xl">Why Choose Us?</h1>
+            <p class="font-semibold text-xl leading-relaxed mt-4">
+                We are committed to providing our customers with exceptional service while offering our employees the best training.
+            </p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center p-4">
+                <img src="./quality.jpeg" alt="Quality" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Quality Products</h2>
+                <p class="mt-2">We offer the best quality products to ensure customer satisfaction.</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./experience.png" alt="Experience" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Expert Guidance</h2>
+                <p class="mt-2">Our team provides expert guidance to help you make the right choices.</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./support.jpeg" alt="Support" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Customer Support</h2>
+                <p class="mt-2">We are here to assist you with any inquiries or concerns.</p>
+            </div>
+        </div>
+        <div class="container mx-auto text-center py-8">
+            <h1 class="font-bold text-4xl">Our Services</h1>
+            <p class="font-semibold text-xl leading-relaxed mt-4">
+                We offer a wide range of services to meet your gardening needs.
+            </p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center p-4">
+                <img src="./service1.jpeg" alt="Service 1" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Plant Sales</h2>
+                <p class="mt-2">We offer a variety of plants for sale, including flowers, shrubs, and trees.</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./service2.jpeg" alt="Service 2" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Gardening Supplies</h2>
+                <p class="mt-2">We provide all the necessary supplies for your gardening needs.</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./service3.jpeg" alt="Service 3" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Consultation Services</h2>
+                <p class="mt-2">Our experts are available for consultation to help you with your gardening projects.</p>
+            </div>
+        </div>
+        <section class="bg-green-300 flex flex-col items-center py-16" id="products">
+        <section class="bg-green-300 flex flex-col items-center py-16">
+        <div class="container mx-auto text-center py-8">
+            <h1 class="font-bold text-4xl">Our Products</h1>
+            <p class="font-semibold text-xl leading-relaxed mt-4">
+                We offer a wide range of products to meet your gardening needs.
+            </p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center p-4">
+                <img src="./product1.jpeg" alt="Product 1" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Organic Fertilizers</h2>
+                <p class="mt-2">We offer a range of organic fertilizers to promote healthy plant growth.</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./product2.jpeg" alt="Product 2" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Gardening Tools</h2>
+                <p class="mt-2">We provide high-quality gardening tools for all your gardening needs.</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./product3.jpeg" alt="Product 3" class="w-24 h-24 mx-auto mb-4">
+                <h2 class="font-bold text-2xl">Seeds and Bulbs</h2>
+                <p class="mt-2">We offer a variety of seeds and bulbs for your gardening projects.</p>
+            </div>
+        </div>
+    </section>
+        <section class="bg-green-300 flex flex-col items-center py-16" id="team">
+        <div class="container mx-auto text-center py-8">
+            <h1 class="font-bold text-4xl">Our Team</h1>
+            <p class="font-semibold text-xl leading-relaxed mt-4">
+                Meet our dedicated team of experts who are here to assist you.
+            </p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="text-center p-4">
+                <img src="./team1.jpeg" alt="Team Member 1" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                <h2 class="font-bold text-2xl">John Doe</h2>
+                <p class="mt-2">Head Gardener</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./team2.jpeg" alt="Team Member 2" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                <h2 class="font-bold text-2xl">Jane Smith</h2>
+                <p class="mt-2">Customer Service</p>
+            </div>
+            <div class="text-center p-4">
+                <img src="./team3.jpeg" alt="Team Member 3" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                <h2 class="font-bold text-2xl">Mike Johnson</h2>
+                <p class="mt-2">Sales Manager</p>
+            </div>
+        </div>
+        </section>
+        <section class="bg-gray-100 py-16" id="reviews" style="background-image: url(.);">
+        <div class="container mx-auto text-center py-8">
+            <h1 class="font-bold text-4xl">Customer Reviews</h1>
+            <p class="font-semibold text-xl leading-relaxed mt-4">
+                Our customers love us! Here's what they have to say:
+            </p>
+        </div>
+        <div id="feedbackCarousel" class="relative w-full max-w-4xl mx-auto overflow-hidden">
+            <div id="carouselItems" class="flex transition-transform duration-500">
+                <!-- Feedback 1 -->
+                <div class="text-center p-4 flex-shrink-0 w-full">
+                    <img src="./cus1.jpeg" alt="Customer 1" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                    <h2 class="font-bold text-xl">Kovinth</h2>
+                    <p class="mt-2">"The plants I received were in excellent condition. The packaging was eco-friendly, and the delivery was on time. Highly recommended!"</p>
+                </div>
+                <!-- Feedback 2 -->
+                <div class="text-center p-4 flex-shrink-0 w-full">
+                    <img src="./cus2.jpeg" alt="Customer 2" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                    <h2 class="font-bold text-xl">Gnana</h2>
+                    <p class="mt-2">"The best gardening experience I've ever had! Highly recommend."</p>
+                </div>
+                <!-- Feedback 3 -->
+                <div class="text-center p-4 flex-shrink-0 w-full">
+                    <img src="./cus3.jpeg" alt="Customer 3" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                    <h2 class="font-bold text-xl">Aathav</h2>
+                    <p class="mt-2">"AGR has transformed my backyard into a beautiful green space. Their products and services are top-notch!"</p>
+                </div>
+                <!-- Feedback 4 -->
+                <div class="text-center p-4 flex-shrink-0 w-full">
+                    <img src="./cos2.jpeg" alt="Customer 4" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                    <h2 class="font-bold text-xl">Rubzzz</h2>
+                    <p class="mt-2">"Amazing quality products and great customer service!"</p>
+                </div>
+                <!-- Feedback 5 -->
+                <div class="text-center p-4 flex-shrink-0 w-full">
+                    <img src="./cus5.jpeg" alt="Customer 5" class="w-24 h-24 mx-auto mb-4 rounded-full">
+                    <h2 class="font-bold text-xl">Deepzzz</h2>
+                    <p class="mt-2">"I love my new garden! Thank you for the expert guidance."</p>
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <button onclick="prevSlide()" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-green-600 text-white px-4 py-2 rounded-l">❮</button>
+            <button onclick="nextSlide()" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-green-600 text-white px-4 py-2 rounded-r">❯</button>
+        </div>
+    </section>
+    <!-- Customer Reviews Section -->
+    <section class=" py-8" style="background-image: url(./dark.jpg) ;" id="reviews">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold text-white mb-4">Customer Ratings</h1>
+            <p class="text-lg font-medium text-gray-100 mb-6">Our customers love us! Here's what they have to say:</p>
+        </div>
+        <div class="container mx-auto">
+            <div class="flex items-center justify-center mb-4">
+                <!-- Star Ratings -->
+                <svg class="w-6 h-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-6 h-6 text-yellow-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <svg class="w-6 h-6 text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                    <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </svg>
+                <p class="ml-2 text-lg font-medium text-gray-100">4.95 out of 5</p>
+            </div>
+            <p class="text-center text-gray-100 mb-6">1,745 global ratings</p>
+            <!-- Rating Bars -->
+            <div class="space-y-4">
+                <div class="flex items-center">
+                    <a href="#" class="text-sm font-medium text-yellow-600 hover:underline">5 star</a>
+                    <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded-sm">
+                        <div class="h-5 bg-yellow-300 rounded-sm" style="width: 70%"></div>
+                    </div>
+                    <span class="text-sm font-bold text-gray-100">70%</span>
+                </div>
+                <div class="flex items-center">
+                    <a href="#" class="text-sm font-medium text-yellow-600 hover:underline">4 star</a>
+                    <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded-sm">
+                        <div class="h-5 bg-yellow-300 rounded-sm" style="width: 17%"></div>
+                    </div>
+                    <span class="text-sm font-bold text-gray-100">17%</span>
+                </div>
+                <div class="flex items-center">
+                    <a href="#" class="text-sm font-medium text-yellow-600 hover:underline">3 star</a>
+                    <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded-sm">
+                        <div class="h-5 bg-yellow-300 rounded-sm" style="width: 8%"></div>
+                    </div>
+                    <span class="text-sm font-bold text-gray-100">8%</span>
+                </div>
+                <div class="flex items-center">
+                    <a href="#" class="text-sm font-medium text-yellow-600 hover:underline">2 star</a>
+                    <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded-sm">
+                        <div class="h-5 bg-yellow-300 rounded-sm" style="width: 4%"></div>
+                    </div>
+                    <span class="text-sm font-bold text-gray-100">4%</span>
+                </div>
+                <div class="flex items-center">
+                    <a href="#" class="text-sm font-medium text-yellow-600 hover:underline">1 star</a>
+                    <div class="w-2/4 h-5 mx-4 bg-gray-200 rounded-sm">
+                        <div class="h-5 bg-yellow-300 rounded-sm" style="width: 1%"></div>
+                    </div>
+                    <span class="text-sm font-bold text-gray-100">1%</span>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto text-center py-8">
+            <h1 class="font-bold text-4xl text-yellow-600">Submit Your Review</h1>
+            <form id="reviewForm" class="mt-6 space-y-4">
+                <input type="text" id="reviewerName" placeholder="Your Name" class="p-2 border rounded w-2/3">
+                <textarea id="reviewText" placeholder="Your Review" class="p-2 border rounded w-2/3 h-24"></textarea>
+                <button type="button" onclick="addReview()" class="px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700">Submit Review</button>
+            </form>
+        </div>
+    </section>
+        <div class="container mx-auto text-center py-8" id="contact">
+            <h1 class="font-bold text-4xl"><a href="contact.html">Contact Us</a></h1>
+            <p class="font-semibold text-xl leading-relaxed mt-4">
+                Have questions or need assistance? Reach out to us!
+            </p>
+        </div>
+        <script>
+            // Add Customer Review
+            function addReview() {
+                const name = document.getElementById('reviewerName').value;
+                const review = document.getElementById('reviewText').value;
+        
+                if (name === '' || review === '') {
+                    alert('Please fill out both fields.');
+                    return;
+                }
+        
+                const reviewContainer = document.createElement('div');
+                reviewContainer.className = 'text-center p-4';
+        
+                reviewContainer.innerHTML = `
+                    <h2 class="font-bold text-xl">${name}</h2>
+                    <p class="mt-2">"${review}"</p>
+                `;
+        
+                const reviewsSection = document.querySelector('.grid.grid-cols-1.md\\:grid-cols-3');
+                reviewsSection.appendChild(reviewContainer);
+        
+                // Clear form fields
+                document.getElementById('reviewerName').value = '';
+                document.getElementById('reviewText').value = '';
+        
+                alert('Thank you for your review!');
+            }
+            // Smooth Scroll to Section
+            function scrollToSection(sectionId) {
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+    let currentIndex = 0;
+
+    function updateCarousel() {
+        const carousel = document.getElementById('carouselItems');
+        const totalItems = carousel.children.length;
+        const itemWidth = carousel.children[0].offsetWidth;
+
+        // Update the transform property to slide to the current index
+        carousel.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+    }
+
+    function nextSlide() {
+        const carousel = document.getElementById('carouselItems');
+        const totalItems = carousel.children.length;
+
+        // Increment the index and loop back to the start if at the end
+        currentIndex = (currentIndex + 1) % totalItems;
+        updateCarousel();
+    }
+
+    function prevSlide() {
+        const carousel = document.getElementById('carouselItems');
+        const totalItems = carousel.children.length;
+
+        // Decrement the index and loop back to the end if at the start
+        currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+        updateCarousel();
+    }
+        </script>
+</body>
+</html>

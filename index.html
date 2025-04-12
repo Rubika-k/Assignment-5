@@ -7,6 +7,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .hidden { display: none; }
+           #products img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #products img:hover {
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body class="bg-green-100 text-gray-900">
@@ -14,10 +21,9 @@
     <!-- Navigation Bar -->
     <nav class="bg-green-600 p-4 text-white flex justify-between items-center">
         <img src="./Assets/AGR.png" class="w-12 h-12"> 
-        <div class="hidden lg:flex space-x-4">
-           <button onclick="toggleMenu()" >☰</button>
-        <ul id="menu" class="hidden lg:flex space-x-6">
-            <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+        <button onclick="toggleMenu()" class="lg:hidden text-2xl">☰</button>
+        <ul id="menu" class="hidden flex space-x-6">
+            <li><a href="./About.html" class="hover:text-yellow-400">About</a></li>
             <li><a href="#products" class="hover:text-yellow-400">Products</a></li>
             <li><a href="./contact.html" class="hover:text-yellow-400">Contact</a></li>
         </ul>
@@ -89,16 +95,6 @@
         </div>
 
         <button onclick="showMore()" class="mt-6 px-6 py-2 bg-green-600 text-white rounded hover:bg-green-700">Show More</button>
-    </section>
-    
-    <!-- Contact Section -->
-    <section id="contact" class="p-10 bg-green-200 text-center">
-        <h2 class="text-3xl font-bold">Contact Us</h2>
-        <form id="contactForm" class="mt-6">
-            <input type="text" id="name" placeholder="Your Name" class="p-2 border rounded w-2/3">
-            <input type="email" id="email" placeholder="Your Email" class="p-2 border rounded w-2/3 mt-2">
-            <button type="button" onclick="validateForm()" class="mt-4 px-6 py-2 bg-green-600 text-white rounded">Submit</button>
-        </form>
     </section>
     
     <footer class="flex flex-wrap mt-12 w-full bg-green-800 border border-green-200 text-white px-8 py-8" style="background-image: url('./Assets/leaves-removebg-preview.png'); background-repeat: no-repeat; background-size: cover;">
@@ -206,23 +202,12 @@
             alert('Zoomed Image: ' + img.src);
         }
         
-        // 4. Validate Form
-        function validateForm() {
-            let name = document.getElementById('name').value;
-            let email = document.getElementById('email').value;
-            if (name === '' || email === '') {
-                alert('Please fill all fields');
-            } else {
-                alert('Form submitted successfully!');
-            }
-        }
-        
-        // 5. Show More Products
+        // 4. Show More Products
         function showMore() {
             alert('More products coming soon!');
         }
         
-        // 6. Scroll to Top
+        // 5. Scroll to Top
         window.onscroll = function () {
             document.getElementById('scrollBtn').classList.toggle('hidden', window.scrollY < 200);
         };
